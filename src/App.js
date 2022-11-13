@@ -1,12 +1,14 @@
 import Navbar from "./components/Navbar";
-import { Box } from '@chakra-ui/react'
-import HomePage from "./components/HomePage"; 
- 
+import { Box } from "@chakra-ui/react";
+import HomePage from "./components/HomePage";
+
 function App() {
   return (
     <Box>
-      <Navbar/>
-      <HomePage/>
+      <Navbar />
+      <HomePage />
+ 
+        
     </Box>
   );
 }

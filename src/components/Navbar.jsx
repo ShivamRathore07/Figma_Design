@@ -26,16 +26,16 @@ const Navbar = () => {
 				</Flex>
 				<Box  display={["block", "block", "none"]}>
 					
-					<Menu>
-						<MenuButton bg="#b25e21" as={Button} rightIcon={<GiHamburgerMenu /> }>
+					<Menu bg="#ed9b59">
+						<MenuButton bg="#ed9b59" _hover={{ background: "#b25e21", color: "white", }} as={Button} rightIcon={<GiHamburgerMenu color="white" /> }>
 						 
 						</MenuButton>
-						<MenuList>
-							<MenuItem  _hover={{ color:"#b25e21" }}>Home</MenuItem>
-							<MenuItem  _hover={{ color:"#b25e21" }}>Members</MenuItem>
-							<MenuItem  _hover={{ color:"#b25e21" }}>Blog</MenuItem>
-							<MenuItem  _hover={{ color:"#b25e21" }}>Privacy</MenuItem>
-							<MenuItem  _hover={{ color:"#b25e21" }}>Contact</MenuItem>
+						<MenuList bg="#fef4ea" >
+							<MenuItem  _hover={{ color:"ed9b59" }}>Home</MenuItem>
+							<MenuItem  _hover={{ color:"ed9b59" }}>Members</MenuItem>
+							<MenuItem  _hover={{ color:"ed9b59" }}>Blog</MenuItem>
+							<MenuItem  _hover={{ color:"ed9b59" }}>Privacy</MenuItem>
+							<MenuItem  _hover={{ color:"ed9b59" }}>Contact</MenuItem>
 						</MenuList>
 					</Menu>
 				</Box>

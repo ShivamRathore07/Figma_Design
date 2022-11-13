@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Flex, Text, Box, Heading, Button, Icon, Input } from '@chakra-ui/react'
+import { Image, Flex, Text, Box, Heading, Button, Grid, GridItem, Icon, Input } from '@chakra-ui/react'
 import { CiMail, CiLocationOn } from 'react-icons/ci'
 import { BsGenderMale, BsCalendarPlus } from 'react-icons/bs'
 import moon from "../Assets/moon.png";
@@ -42,6 +42,23 @@ const HomePage = () => {
 
 				<Box pos="relative" w={['100%', '100%', '51%']}   >
 					<Image pos="relative" src='https://www.linkpicture.com/q/image-1_83.png' alt='Dan Abramov' />
+					<Box pos="absolute" w="100%" h="50vh" left="0vw" top={["0vh","3vh","5vh"]}>
+						<Grid templateColumns='repeat(2, 1fr)' gap='1'>
+							<GridItem w='100%' h='20vh' pl={["12vw","15vw","8vw"]} pt={["5vh","5vh","6vh"]} >
+							<i class="fa-solid fa-gem fa-flip" style={{ color: "red" }} />
+							</GridItem>
+							<GridItem w='100%' h='20vh' pl={["1vh","-2vw","2vw"]}>
+								<i class="fa-solid fa-thumbs-up fa-bounce " style={{ color: "red" }} />
+							</GridItem>
+							<GridItem w='100%' h='20vh' pl={["0vh","0vw","1vw"]} pt={["-5vh","2vh","8vh"]} >
+								<i class="fa-solid fa-martini-glass-citrus fa-shake" style={{ color: "red" }} />
+							</GridItem>
+							<GridItem w='100%' h='20vh' pl={["30vw","27vw","13vw"]} pt={["0vh","2vh","7vh"]}>
+								<i className="fa-solid fa-heart fa-beat" style={{ color: "red" }} />
+							</GridItem>
+						</Grid>
+
+					</Box>
 
 					<Box pos="absolute" left={['0vw', '1.7vw', "1vw"]} top={['35vh', '52vh', "69.5vh"]}  >
 						<Flex gap="1vw" mb="3vh" >
