@@ -4,7 +4,9 @@ import { CiMail, CiLocationOn } from 'react-icons/ci'
 import { BsGenderMale, BsCalendarPlus } from 'react-icons/bs'
 import moon from "../Assets/moon.png";
 import star from "../Assets/star.png";
-
+import image1 from "../Assets/Rectangle 462 (1).png";
+import image2 from "../Assets/Rectangle 462.png";
+import coupleImage from "../Assets/image 1.png";
 
 
 import Card from './Card'
@@ -41,7 +43,7 @@ const HomePage = () => {
 
 
 				<Box pos="relative" w={['100%', '100%', '51%']}   >
-					<Image pos="relative" src='https://www.linkpicture.com/q/image-1_83.png' alt='Dan Abramov' />
+					<Image pos="relative" src={coupleImage} alt='Dan Abramov' />
 					<Box pos="absolute" w="100%" h="50vh" left="0vw" top={["0vh","3vh","5vh"]}>
 						<Grid templateColumns='repeat(2, 1fr)' gap='1'>
 							<GridItem w='100%' h='20vh' pl={["12vw","15vw","8vw"]} pt={["5vh","5vh","6vh"]} >
@@ -70,10 +72,10 @@ const HomePage = () => {
 						<Flex gap="3">
 							<Box  >
 								<Box mb="2vh">
-									<Card image="https://s3-alpha-sig.figma.com/img/ed4d/a20e/d9a2243ed97ee578510acab3dfe7b66a?Expires=1668988800&Signature=QHFKapZi2vgaX4xvBSOGRatJUInPKGta7pK8vd3nphVX95M6DVcWqMuyQvpclUujzZdPZt1pvUKFwEtAEw1PY-xIZ2SXak2Z2vZ2yJ4cSw~WLJjlbxUwTZuUDkXW2wMFD-tQOcga9l4GNUta6yGvIteDdzJKSGAZlIRI4-wi2pPcqNB1uzwerO5oXFv6sdzpIQmrg1a6tM3S5RfsjbLNHakItEFyODXozPYmM3gi01GEkdtGtCHPIwSjohefzP8hvz4rUSVqYQM9ykyn1v3czYc8w1vd1WbtVAY~7VfX5TDIV7LVoc~LTyKn8RaGgtUOUnQ-1YWAXOgp~Ml3OBUNgg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" />
+									<Card image={image1} />
 								</Box>
 								<Box ml="2vw">
-									<Card image="https://s3-alpha-sig.figma.com/img/54e2/e24d/2e7e8af8ca468a6227d26781fea5432b?Expires=1668988800&Signature=Sfyw9Hik06ztT-sKOMxLXAUXQK6MZeqm3ZQ1qYk3Kwezj5QBqflDPD15Kzm5SCDTohScRiQ6lYoNtK1m2bi3MY2l9ozXPQKMpkUs2GCneaBLNb7apMXvWrbavCGUdqJaD6bokBsjq35cjFD7ZxIfDmc7TkGL9X0IyXA-zaJP7jKtPIuNZ0KMf2KvPIXE35u3UwykdXVmKmwZt0m13IDVqn0Y5p2--Fh0rKhUA5WCU9zaHg2VWrobWNDBmM522XUPmemgRytLUnccFwkSugLy~W6D0GZTaTvIPGqFwSSmE4xTXwYpv7UCpGPxVqKSVhdg8woSxLIQH2WzJx20EwAC-g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" />
+									<Card image={image2} />
 								</Box>
 							</Box>
 
